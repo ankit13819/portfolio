@@ -60,6 +60,7 @@ function Home2() {
                 imageHeight="200"
                 roundedSize="7"
                 borderRadius="100"
+                marginLeft="100px"
               />
             </Tilt>
           </Col>
