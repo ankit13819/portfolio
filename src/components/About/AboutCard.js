@@ -13,8 +13,11 @@ function AboutCard() {
             <br /> I completed my BTech in 2022 from Veer Bahadur Singh
             Purvanchal University.
             <br />
-            Additionally, I am currently employed as a software developer at
-            FanTv.
+            Previously employed as a software developer at FanTv until September
+            2022, Now have 1.8 years of experience in React development and I am
+            actively seeking new opportunities. I am eager to contribute my
+            skills and expertise to a dynamic team and am open to both
+            entry-level and experienced positions.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -24,7 +27,7 @@ function AboutCard() {
               <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Learn More in free time
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling

@@ -25,7 +25,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Kotlin, Javascript and C++. </b>
+                <b className="purple"> Javascript Programming Laungage🙋‍♂️🙋‍♂️. </b>
               </i>
               <br />
               <br />
@@ -47,7 +47,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple">😊ReactJs, React Native and NextJs😊</b>
               </i>
             </p>
           </Col>
@@ -77,8 +77,7 @@ function Home2() {
                   href="https://github.com/ankit13819"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
+                  className="icon-colour  home-social-icons">
                   <AiFillGithub />
                 </a>
               </li>
@@ -87,8 +86,7 @@ function Home2() {
                   href="https://twitter.com/AnkitGupta7525"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
+                  className="icon-colour  home-social-icons">
                   <AiOutlineTwitter />
                 </a>
               </li>
@@ -97,8 +95,7 @@ function Home2() {
                   href="https://www.linkedin.com/in/ankit-gupta-004808204/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
+                  className="icon-colour  home-social-icons">
                   <FaLinkedinIn />
                 </a>
               </li>
@@ -107,8 +104,7 @@ function Home2() {
                   href="https://www.instagram.com/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
+                  className="icon-colour home-social-icons">
                   <AiFillInstagram />
                 </a>
               </li>

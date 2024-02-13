@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Ankit_Gupta_Resume.pdf";
+import pdf from "../../Assets/../Assets/Ankit_Gupta_CV.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -24,8 +24,7 @@ function ResumeNew() {
             variant="primary"
             href={pdf}
             target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
+            style={{ maxWidth: "250px" }}>
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
@@ -42,8 +41,7 @@ function ResumeNew() {
             variant="primary"
             href={pdf}
             target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
+            style={{ maxWidth: "250px" }}>
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
