@@ -4,8 +4,10 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiFillLinkedin,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 
 function Footer() {
   let date = new Date();
@@ -26,8 +28,7 @@ function Footer() {
                 href="https://github.com/ankit13819"
                 style={{ color: "white" }}
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <AiFillGithub />
               </a>
             </li>
@@ -36,8 +37,7 @@ function Footer() {
                 href="https://twitter.com/AnkitGupta7525"
                 style={{ color: "white" }}
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <AiOutlineTwitter />
               </a>
             </li>
@@ -46,19 +46,17 @@ function Footer() {
                 href="https://www.linkedin.com/in/ankit-gupta-004808204/"
                 style={{ color: "white" }}
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <FaLinkedinIn />
               </a>
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/"
+                href="https://leetcode.com/63948ankit"
                 style={{ color: "white" }}
                 target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
+                rel="noopener noreferrer">
+                <SiLeetcode />
               </a>
             </li>
           </ul>
