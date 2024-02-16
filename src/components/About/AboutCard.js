@@ -13,8 +13,8 @@ function AboutCard() {
             <br /> I completed my BTech in 2022 from Veer Bahadur Singh
             Purvanchal University.
             <br />
-            Previously employed as a software developer at FanTv until September
-            2022, Now have 1.8 years of experience in React development and I am
+            Previously employed as a software developer at FanTv until January
+            2024, Now have 2.3 years of experience in React development and I am
             actively seeking new opportunities. I am eager to contribute my
             skills and expertise to a dynamic team and am open to both
             entry-level and experienced positions.
