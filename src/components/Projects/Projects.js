@@ -4,8 +4,8 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import project from "../../Assets/Projects/project.png";
+import elegant from "../../Assets/Projects/elegent.png";
 import fantv from "../../Assets/Projects/fanTvPic .png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -34,11 +34,21 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={elegant}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/ankit13819/Chatify"
+              title="Elegant Clothes"
+              description="Design an Elegant Clothes section that showcases sophistication and refinement. Utilize clean layouts, high-quality imagery, elegant typography, and a subtle color palette. Arrange elements thoughtfully, paying attention to detail and ensuring seamless navigation. Optimize the design for responsiveness across different devices."
+              ghLink="https://github.com/ankit13819/Elegant-Context-Clothes"
+              demoLink="chatipy-5c072.firebaseapp.com"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={project}
+              isBlog={false}
+              title="Project Management"
+              description="Basic Project Management, featuring a sleek and responsive user interface crafted with Tailwind CSS. Seamlessly manage tasks, track progress."
+              ghLink="https://github.com/ankit13819/react-project-management"
               demoLink="chatipy-5c072.firebaseapp.com"
             />
           </Col>
