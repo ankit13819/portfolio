@@ -6,6 +6,8 @@ import React, { useEffect, useRef } from 'react'
 import profilePic from '../../public/images/profile/developer-pic-2.jpg'
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
 import Skills from '@/components/Skills'
+import Expriences from '@/components/Expriences'
+import Education from '@/components/Education'
 
 const AnimatedNumber = ({ value }) => {
   const ref = useRef(null);
@@ -38,13 +40,13 @@ const about = () => {
         <title>Code | About Page</title>
         <meta name='description' content='any description' />
       </Head>
-      <main className='flex w-full flex-col items-center  justify-center'>
+      <main className='flex w-full flex-col items-center  justify-center dark:text-light'>
         <Layout className='pt-16'>
           <AnimatedText text="Passion Fuels Purpose" className='mb-16' />
           <div className='grid w-full grid-cols-8 gap-16'>
             <div className='col-span-3 flex flex-col items-center justify-start
             '>
-              <h2 className='mb-4 text-lg font-bold uppercase text-dark/75'>Biography</h2>
+              <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
               <p className='font-medium '>
                 Hi, I'm CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional,
                 and user-centered digital experiences. With 4 years of experience in the field. I am always looking for
@@ -60,9 +62,13 @@ const about = () => {
                 every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
               </p>
             </div>
-            <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8'>
-              <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark' />
-              <Image src={profilePic} alt='codebucks' className='' />
+            <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light'>
+              <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light' />
+              <Image src={profilePic} alt='codebucks' className=''
+                priority
+                sizes="(max-width:768px) 100vw,
+                      (max-width:1200px) 50vw,
+              33vw"/>
             </div>
 
 
@@ -71,22 +77,24 @@ const about = () => {
               <div className='flex flex-col items-end justify-center'>
                 <span className='inline-block text-7xl font-bold '>
                   <AnimatedNumber value={50} />+</span>
-                <h2 className='text-xl font-medium capitalize text-dark/75'>Satisfied Clients</h2>
+                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>Satisfied Clients</h2>
               </div>
 
               <div className='flex flex-col items-end justify-center'>
                 <span className='inline-block text-7xl font-bold '>
                   <AnimatedNumber value={40} />+</span>
-                <h2 className='text-xl font-medium capitalize text-dark/75'>Projects Completed</h2>
+                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>Projects Completed</h2>
               </div>
 
               <div className='flex flex-col items-end justify-center'>
                 <span className='inline-block text-7xl font-bold '><AnimatedNumber value={2} />+</span>
-                <h2 className='text-xl font-medium capitalize text-dark/75'>Years of Exprience</h2>
+                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>Years of Exprience</h2>
               </div>
             </div>
           </div>
           <Skills />
+          <Expriences />
+          <Education />
         </Layout>
 
       </main>
