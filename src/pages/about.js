@@ -54,7 +54,7 @@ const about = () => {
                 Design is about solving real problems and creating intuitive experiences. As a React and Next.js developer, I focus on combining clean code with user-centered design to build high-performance, scalable, and accessible digital products.
               </p>
               <p className='my-4 font-medium '>
-                Whether I'm working on a website, mobile app, or
+                Whether ${`I'm`} working on a website, mobile app, or
                 other digital product, I bring my commitment to design excellence and user-centered thinking to
                 every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
               </p>
