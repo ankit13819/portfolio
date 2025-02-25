@@ -3,7 +3,7 @@ import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
 import React, { useEffect, useRef } from 'react'
-import profilePic from '../../public/images/profile/developer-pic-2.jpg'
+import profilePic from '../../public/images/profile/profile-pic.png'
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
 import Skills from '@/components/Skills'
 import Expriences from '@/components/Expriences'
@@ -48,13 +48,10 @@ const about = () => {
             '>
               <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
               <p className='font-medium '>
-                Hi, I'm CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional,
-                and user-centered digital experiences. With 4 years of experience in the field. I am always looking for
-                new and innovative ways to bring my clients' visions to life.
+                I’m Ankit Gupta, a web developer and android developer with 2 years of experience, specializing in building dynamic, high-performance web applications using React and Next.js. I believe in creating intuitive, user-centered digital experiences and am passionate about using modern technologies to solve complex problems.
               </p>
               <p className='my-4 font-medium'>
-                I believe that design is about more than just making things look pretty – it's about solving problems and
-                creating intuitive, enjoyable experiences for users.
+                Design is about solving real problems and creating intuitive experiences. As a React and Next.js developer, I focus on combining clean code with user-centered design to build high-performance, scalable, and accessible digital products.
               </p>
               <p className='my-4 font-medium '>
                 Whether I'm working on a website, mobile app, or
@@ -76,13 +73,13 @@ const about = () => {
 
               <div className='flex flex-col items-end justify-center'>
                 <span className='inline-block text-7xl font-bold '>
-                  <AnimatedNumber value={50} />+</span>
+                  <AnimatedNumber value={2} />+</span>
                 <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>Satisfied Clients</h2>
               </div>
 
               <div className='flex flex-col items-end justify-center'>
                 <span className='inline-block text-7xl font-bold '>
-                  <AnimatedNumber value={40} />+</span>
+                  <AnimatedNumber value={4} />+</span>
                 <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>Projects Completed</h2>
               </div>
 

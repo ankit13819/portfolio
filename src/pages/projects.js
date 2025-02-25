@@ -5,7 +5,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import project1 from '../../public/images/projects/crypto-screener-cover-image.jpg'
+import project1 from '../../public/images/projects/techinovativ.png'
+import project2 from '../../public/images/projects/book.png'
 import { motion } from 'framer-motion'
 
 const FramerImage = motion(Image)
@@ -83,35 +84,35 @@ const projects = () => {
           <div className='grid grid-cols-12 gap-24 gap-y-32'>
             <div className='col-span-12'>
               <FeaturedProject
-                title="Crypto Screener Application"
-                summary=" A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts.It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-                link="/"
+                title="Techinovativ Application"
+                summary="A feature-rich Techinovativ App using NextJS, Tailwind CSS, Redux and Recharts.It shows detail regarding almost all the SEO features and web and mobile services."
+                link="https://github.com/ankit13819/techinovativ-frontend"
                 type="Featured Project"
-                github="/"
+                github="https://techinovativ-frontend.vercel.app/"
                 img={project1}
               />
             </div>
             <div className='col-span-6'>
               <Project
-                title="Crypto Screener Application"
-                summary=" A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts.It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-                link="/"
+                title="Techinovativ Application"
+                summary=" A feature-rich Techinovativ App using NextJS, Tailwind CSS, Redux, and Framer Motion.It shows detail regarding almost all the SEO features and web and mobile services."
+                link="https://github.com/ankit13819/techinovativ-frontend"
                 type="Featured Project"
-                github="/"
+                github="https://techinovativ-frontend.vercel.app/"
                 img={project1}
               />
             </div>
             <div className='col-span-6'>
               <Project
-                title="Crypto Screener Application"
-                summary=" A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts.It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-                link="/"
+                title="Book Store Application"
+                summary=" A Book Store Application using React, Tailwind CSS, Context API, React Router and React Form.It shows detail regarding almost all library book. You can easily purchase the book in your reasonable price."
+                link="https://github.com/ankit13819/mern-book-store-website"
                 type="Featured Project"
-                github="/"
-                img={project1}
+                github="https://book-store-frontend-1me1.vercel.app/"
+                img={project2}
               />
             </div>
-            <div className='col-span-12'>
+            {/* <div className='col-span-12'>
               <FeaturedProject
                 title="Crypto Screener Application"
                 summary=" A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts.It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
@@ -140,7 +141,7 @@ const projects = () => {
                 github="/"
                 img={project1}
               />
-            </div>
+            </div> */}
           </div>
         </Layout>
       </main>

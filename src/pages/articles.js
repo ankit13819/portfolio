@@ -104,6 +104,14 @@ const articles = () => {
               link="/"
               img={article1}
             />
+            <FeaturedArticles
+              title=" Build A Custom Pagination Component In Reactjs From Scratch"
+              summary=" Learn how to build a custom pagination component in ReactJS from scratch.
+              Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
+              time="9 min read"
+              link="/"
+              img={article1}
+            />
           </ul>
           <h2 className='font-bold text-4xl w-full text-center my-16 mt-32 dark:text-light'>All Articles</h2>
           <ul>
